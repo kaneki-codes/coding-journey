@@ -1,0 +1,90 @@
+@font-face {
+    font-family: outfit;
+    src: url(/assets/fonts/outfit/static/Outfit-Regular.ttf);
+}
+
+@font-face {
+    font-family: young-serif;
+    src: url(/assets/fonts/young-serif/YoungSerif-Regular.ttf);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: ;
+} 
+
+h1{
+    font-size: 48px;
+    color: #000;
+}
+h2, span{
+    color: hsl(14, 45%, 36%);
+    
+}
+
+h3{
+    color: hsl(332, 51%, 32%);
+    margin-bottom: 1rem;
+}
+
+ul, ol{
+    padding-left: 30px;
+}
+li{
+    margin-top: 0.5rem;
+}
+
+body{
+    color: hsl(30, 10%, 34%);
+    padding-left: 60px;
+}
+
+body{
+    font-family: youngserif;
+    background-color:hsl(30, 54%, 90%) ;
+}
+img{
+    max-width: 100%;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
+    
+.container div:not(:first-child) {
+    padding: 1.5rem;
+}
+
+.container{
+    max-width: 1440px;
+    margin-inline: auto;
+    padding: 2rem 2rem;
+    border-radius: 1.5rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.opening article{
+    background-color:hsl(330, 100%, 98%);
+    padding: 1.5rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+}
+.instructions{
+    border-top: 1px solid hsl(16, 12%, 65%);
+    border-bottom: 1px solid hsl(16, 12%, 65%);
+}
+img{
+    border-radius: 1.5rem;
+}
+.nutrition ul li{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom:1px solid hsl(16, 12%, 65%) ;
+    
+}
+.nutrition ul li:last-child{
+    border-bottom: none;
+}
